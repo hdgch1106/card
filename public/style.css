@@ -1,11 +1,11 @@
 #envelope {
-  margin: 150px auto;
+  margin: 100px auto;
   position: relative;
   width: 280px;
   height: 180px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  top: 150px;
+  top: 100px;
   background-color: #a3c8f9;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -41,7 +41,7 @@
   width: 90%;
   margin: auto;
   height: 90%;
-  top: 5%;
+  top: -10px;
   border-radius: 6px;
   box-shadow: 0 2px 26px rgba(0, 0, 0, 0.12);
   padding: 10px;

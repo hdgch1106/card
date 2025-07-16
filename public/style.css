@@ -17,7 +17,7 @@ body {
   position: relative;
   width: 85%;
   max-width: 320px;
-  height: 280px;
+  height: 300px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);

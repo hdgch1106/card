@@ -17,7 +17,7 @@ body {
   position: relative;
   width: 85%;
   max-width: 320px;
-  height: 210px;
+  height: 280px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
@@ -39,8 +39,8 @@ body {
 .flap {
   border-left: 160px solid transparent;
   border-right: 160px solid transparent;
-  border-bottom: 95px solid transparent;
-  border-top: 105px solid #ff6b9d;
+  border-bottom: 125px solid transparent;
+  border-top: 140px solid #ff6b9d;
   transform-origin: top;
   pointer-events: none;
   background: linear-gradient(135deg, #ff6b9d, #c44ea0);
@@ -49,8 +49,8 @@ body {
 .pocket {
   border-left: 160px solid #ff9a9e;
   border-right: 160px solid #ff9a9e;
-  border-bottom: 105px solid #fecfef;
-  border-top: 105px solid transparent;
+  border-bottom: 140px solid #fecfef;
+  border-top: 140px solid transparent;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }
@@ -145,14 +145,14 @@ body {
 }
 
 .open .letter {
-  transform: translateY(-150px);
+  transform: translateY(-180px);
   transition: transform 0.8s 0.6s ease, z-index 0.6s;
   z-index: 2;
 }
 
 .hearts {
   position: absolute;
-  top: -150px;
+  top: -200px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -414,22 +414,22 @@ body {
 
   #envelope {
     width: 450px;
-    height: 300px;
+    height: 380px;
     max-width: none;
   }
 
   .flap {
     border-left: 225px solid transparent;
     border-right: 225px solid transparent;
-    border-bottom: 130px solid transparent;
-    border-top: 150px solid #ff6b9d;
+    border-bottom: 165px solid transparent;
+    border-top: 190px solid #ff6b9d;
   }
 
   .pocket {
     border-left: 225px solid #ff9a9e;
     border-right: 225px solid #ff9a9e;
-    border-bottom: 150px solid #fecfef;
-    border-top: 150px solid transparent;
+    border-bottom: 190px solid #fecfef;
+    border-top: 190px solid transparent;
   }
 
   .letter {
@@ -504,11 +504,11 @@ body {
   }
 
   .hearts {
-    top: -280px;
+    top: -320px;
   }
 
   .open .letter {
-    transform: translateY(-200px);
+    transform: translateY(-240px);
   }
 
   @keyframes slideUp {
